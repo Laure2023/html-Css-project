@@ -1,0 +1,96 @@
+body {
+  background-color: burlywood;
+}
+
+.contact {
+  text-align: end;
+}
+nav {
+  background-color: gray;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: black;
+  text-align: end;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.landing {
+  background-image: url(./images/Boxes.jpeg); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.landing-content {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.724);
+}
+
+.landing p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.content {
+  padding: 40px 0;
+}
+
+h2, h3, h4{
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: normal; 
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+
