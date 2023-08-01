@@ -6,7 +6,7 @@ body {
   text-align: end;
 }
 nav {
-  background-color: gray;
+  background-color: maroon;
 }
 
 #navbar {
@@ -91,6 +91,45 @@ h2, h3, h4{
   background-color: #333;
   color: white;
   padding: 40px 0;
+  display: flex;
+}
+
+.footer .container1{
+  display: flex;
+  margin: 0% auto;
+  max-width: 1000px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer p {
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer h5{
+  margin-bottom: 20px;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.about-heading {
+  font-size: 20px;
+  text-align: center;
+  
 }
 
 
